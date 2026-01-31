@@ -1,26 +1,25 @@
 # react-node-project
 "A Full Stack Web Application built with React for the frontend and Node.js/Express for the backend, integrated with a database."
 
-* **Language:** PHP (Core PHP/Laravel)
-* **Database:** MySQL
-* **Frontend:** HTML5, CSS3, aur Bootstrap
-* **Tools:** XAMPP / WAMP server
-* **Database Integration:** SQL queries ke zariye data handle kiya gaya hai.
-* **Responsive UI:** Har screen size (Mobile/Desktop) par behtareen nazar aata hai.
-* **Clean Code:** Professional coding standards aur folder structure ko follow kiya gaya hai.
+**Frontend:** React.js (JSX, Components, Hooks)
+* **Backend:** Node.js & Express
+* **Database:** MongoDB
+* **Styling:** Bootstrap aur CSS
+* **Full Stack Integration:** React frontend ko Node.js API ke sath connect kiya gaya hai.
+* **Responsive Design:** Mobile aur Desktop dono par sahi nazar aata hai.
+* **Clean Folder Structure:** Frontend aur Backend ko alag folders mein organize kiya gaya hai taake code maintainable ho.
 
- Installation & Setup (Local Server)
+ Installation & Setup
 Is project ko apne local system par chalane ke liye:
 
-1. Repository ko **Download** ya **Clone** karein.
-2. Folder ko apne server ki directory mein rakhein (e.g., XAMPP ke liye `htdocs` folder).
-3. **Database Setup:**
-   - PHPMyAdmin open karein.
-   - Naya database banayein (e.g., `taskflow_db`).
-   - Project folder mein maujood `.sql` file ko import karein.
-4. **Configuration:**
-   - `config.php` ya `.env` file mein apne database ke credentials (username, password) check karein.
-5. Browser mein `localhost/taskflow` open karein.
+1. Repository ko clone karein.
+2. **Backend Setup:**
+   - `cd backend` folder mein jayein.
+   - `npm install` run karein.
+   - `node index.js` ya `npm start` se server chalayein.
+3. **Frontend Setup:**
+   - `cd frontend` folder mein jayein.
+   - `npm install` run karein.
+   - `npm start` se React app launch karein.
 
----
-Developed by **Sumera Hassan** | Full Stack Web Developer
+Developed by **Sumera Hassan** | Full Stack Web Developerloper
