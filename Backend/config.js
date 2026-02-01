@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    const uri = "mongodb+srv://Sumera:sumera123@cluster0.tsygvxq.mongodb.net/web18";
+    const uri = "mongodb+srv://Sumera:sumera123@cluster0.tsygvxq.mongodb.net";
     
     await mongoose.connect(uri);
     console.log("✅ MongoDB Connected Successfully!");
@@ -11,4 +11,5 @@ const connectDB = async () => {
     process.exit(1); 
   }
 };
+
 module.exports = connectDB;
